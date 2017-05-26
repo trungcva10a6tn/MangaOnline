@@ -3,7 +3,7 @@ body {
     margin-right: 5%;
 }
 h1 {
-    color: darkolivegreen;
+    color: green;
 }
 .title_manga {
     font-size: 20px;
@@ -13,18 +13,26 @@ h1 {
     border-bottom: #ff0000 solid 2px;
 }
 .list_manga {
-    margin: 1%;
+    float: left;
+    padding: 10px;
+    background: whitesmoke;
+    width: 65%;
+    margin-bottom: 10px;
 }
 .manga{
-    margin: 10px;
+    margin: 15px 10px;
     border-radius: 20px;
     float: left;
     width: 150px;
-    height: 250px;
+    height: 230px;
+    background: white;
+    padding: 10px;
 }
 .manga div{
+    font-size: 10px;
     opacity: 0.3;
     text-align: center;
+    padding: 10px;
 }
 .manga div:hover{
     opacity: 0.8;
@@ -40,4 +48,35 @@ h1 {
 .manga a{
     color: black;
     text-decoration: none;
+}
+.header{
+    padding: 10px;
+    background: whitesmoke;
+}
+.top{
+    background: whitesmoke;
+    padding: 10px;
+    float: right;
+    width: 30%;
+    margin-bottom: 10px;
+}
+.list_top{
+    margin: 5px 0px;
+    float: left;
+    width: 100%;
+    background: white;
+}
+.list_top img{
+    border-radius: 20px;
+    width: 70px;
+    height: 100px;
+}
+.list_top img, .list_top div{
+    float: left;
+    margin: 5px;
+}
+.footer{
+    clear: both;
+    padding: 10px;
+    background: whitesmoke;
 }

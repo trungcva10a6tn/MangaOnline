@@ -1,0 +1,113 @@
+*{
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.content-titter{
+    margin-top: 40px;
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+    padding: 10px 0px;
+    transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+}
+.content-titter:hover{
+    margin-left: 30px;
+    color: indianred;
+}
+.content{
+    clear: both;
+    margin-top: 100px;
+}
+
+.manga{
+    box-sizing: border-box;
+    width: 20%;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px #888888;
+    color: white;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+@media only screen and (max-width: 1080px){
+    .manga{
+        width: 25%;
+    }
+}
+@media only screen and (max-width: 720px){
+    .manga{
+        width: 50%;
+    }
+    .titter{
+        float: none;
+    }
+}
+@media only screen and (max-width: 480px){
+    .manga{
+        width: 100%;
+    }
+    .link_sun{
+        display: none;
+    }
+}
+.manga >div{
+    box-sizing: border-box;
+    text-align: left;
+    background: rgba(76, 175, 80, 0.3);
+    position: absolute;
+    width: 100%;
+}
+.manga:hover .manga-detail {
+    bottom: 0px;
+}
+.manga:hover .manga-titter{
+    opacity: 0.0;
+    bottom: 97%;
+}
+.manga-titter{
+    padding: 5px 10px;
+    transition: all 0.6s ease-in;
+    -moz-transition: all 0.6s ease-in;
+    -webkit-transition: all 0.6s ease-in;
+    bottom: 0px;
+    height: 20%;
+}
+.manga-titter >p{
+    margin: 2px;
+}
+.manga-detail >p{
+    margin: 2px;
+}
+.manga-detail{
+    padding: 5px 10px;
+    position: relative;
+    bottom: -100%;
+    transition: all 0.6s ease-in;
+    -moz-transition: all 0.6s  ease-in;
+    -webkit-transition: all 0.6s ease-in;
+    height: 100%;
+}
+.manga-detail >button{
+    position: absolute;
+    bottom: 0px;
+    margin: 10px;
+    background: red;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    transition: all 0.5s  ease-in;
+    -moz-transition: all 0.5s  ease-in;
+    -webkit-transition: all 0.5s  ease-in;
+}
+.manga-detail >button:hover{
+    color: red;
+    background: white;
+}
+.manga-img >img {
+    width: 100%;
+    min-height: 250px;
+}

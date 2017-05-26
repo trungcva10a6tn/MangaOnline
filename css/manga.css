@@ -1,0 +1,39 @@
+body{
+    margin: 0px 20px;
+}
+.header{
+    box-shadow: 0px 0px 3px 0px #888888;
+    position: fixed;
+    padding: 10px;
+    top:  0px;
+    left: 20px;
+    right: 20px;
+    overflow: auto;
+    background: white;
+    z-index: 1;
+}
+.header >div{
+    float: left;
+    margin: 0px 5px;
+}
+.titter{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: red;
+    color: white;
+    font-size: 20px;
+}
+.link_sun{
+    border-radius: 5px;
+    color: red;
+    background: white;
+    padding: 10px;
+    font-size: 15px;
+    transition: all 0.5s  ease-in;
+    -moz-transition: all 0.5s  ease-in;
+    -webkit-transition: all 0.5s  ease-in;
+}
+.link_sun:hover{
+    background: red;
+    color: white;
+}

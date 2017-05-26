@@ -1,0 +1,56 @@
+body{
+    margin: 10px 30px;
+}
+.demo_menu_2{
+    background: whitesmoke;
+    text-align: center;
+}
+.m1, .m2{
+    list-style: none;
+}
+.m1_1{
+    padding: 10px 0px;
+    display: inline-block;
+    position: relative;
+}
+.m1_1 span{
+    padding: 5px 20px;
+}
+.m1_1:hover .m2{
+    display: block;
+}
+.m2{
+    display: none;
+    position: absolute;
+    padding: 0px;
+    margin: 10px 0px;
+    width: 150%;
+    border: 1px solid #2fff21;
+}
+.m2_2{
+    display: block;
+    background: whitesmoke;
+    padding: 5px 10px;
+}
+.m2_2:hover, .m1_1:hover{
+    background: #2fff21;
+}
+
+
+
+
+
+
+
+.menu_ngang{
+    text-align: center;
+    float: left;
+}
+.menu_ngang ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
