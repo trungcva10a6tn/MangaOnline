@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Choose</title>
+    <title>Manga Choose</title>
     <link rel="stylesheet" href="css/manga.css">
     <link rel="stylesheet" href="css/detail_manga.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
@@ -10,14 +10,21 @@
 </head>
 <body>
 <div class="header">
-    <div class="titter">Manga Online</div>
-    <div class="link_sun"><i class="fa fa-list" aria-hidden="true"></i> Thể Loại</div>
-    <div class="link_sun"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Truyện Mới</div>
-    <div class="link_sun"><i class="fa fa-line-chart" aria-hidden="true"></i> Đề Cử </div>
-    <div class="link_sun"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Tin Tức</div>
+<div class="titter" onclick="location.href='/MangaOnline/manga.html'" >Manga Online</div>
+<div class="link_sun" onclick="location.href='/MangaOnline/manga_choose.html'" ><i class="fa fa-list" aria-hidden="true"></i> Thể Loại</div>
+<div class="link_sun" onclick="location.href='/MangaOnline/manga_choose.html'"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Truyện Mới</div>
+<div class="link_sun" onclick="location.href='/MangaOnline/manga_choose.html'"><i class="fa fa-line-chart" aria-hidden="true"></i> Đề Cử </div>
+<div class="link_sun" onclick="location.href='/MangaOnline/manga_choose.html'"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Tin Tức</div>
+    <div class="search">
+        <div class="search-boder">
+            <input class="search-input" type="text"/>
+            <button class="search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+    </div>
 </div>
-<div class="choose">
-    <div class="choose-titter">Dánh sách lựa chọn</div>
+
+<div class="choose top">
+    <div class="choose-titter">Dánh sách lựa chọn <i class="fa fa-angle-double-right " aria-hidden="true"></i></div>
     <div class="choose-table">
         <label><input type="checkbox" checked="checked"> Tất cả</label>
         <label><input type="checkbox"> Hành Động</label>
@@ -25,6 +32,368 @@
         <label><input type="checkbox"> Kiếm Hiệp</label>
         <label><input type="checkbox"> Cổ Trang</label>
         <label><input type="checkbox"> Viễn Tưởng</label>
+    </div>
+</div>
+<div class="content">
+    <div class="content-titter ">Danh Sách Hiển Thị <i class="fa fa-angle-double-right " aria-hidden="true"></i></div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/2.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/naruto.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/natsu.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/doremon.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/conan.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/3.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/sungoku.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/punch.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/titan.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/nanatsu.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/2.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/naruto.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/natsu.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/doremon.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/conan.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/3.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/sungoku.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/punch.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/titan.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+    <div class="manga">
+        <div class="manga-img">
+            <img src="image/nanatsu.jpg"/>
+        </div>
+        <div class="manga-titter">
+            <p>Tên Phim: Đảo Hải Tặc</p>
+            <p>123,456 Lượt Xem</p>
+        </div>
+        <div class="manga-detail">
+            <p>Tên Phim: Đảo Hải Tặc.</p>
+            <p>Tập: 123.</p>
+            <p>Thể Loại: Hàng Động, Phưu Lưu.</p>
+            <P>Thời Gian: 45 Phút</P>
+            <p>Lượt Xem: 123.456</p>
+            <button onclick="location.href='/MangaOnline/manga_name.html'">Đọc Truyện</button>
+        </div>
+    </div>
+</div>
+<div class="choose-next">
+    <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+</div>
+<div class="footer">
+    <div class="footer-info">
+        <p>Manga Online nới cập nhật các truyện sớm nhất. Liên tục cập nhật các Truyện Mới Trên thị trường. Cung cấp truyện chất lượng cao, truyện màu bản đẹp.</p>
+    </div>
+    <div class="footer-address">
+        <p>Copyright ©vuighe.net</p>
+        <p>Địa chỉ: 123 đường Bắc Sơn Tỉnh Thái Nguyên.</p>
+        <p>Email: trungcva10a6tn@gmail.com</p>
+    </div>
+    <div class="footer-fan">
+        <a href="https://www.facebook.com/trungcva10a6tn" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/trungcva10a6tn" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/trungcva10a6tn" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/trungcva10a6tn" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></i></a>
     </div>
 </div>
 </body>

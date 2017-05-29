@@ -43,11 +43,117 @@ body{
     margin-top: 70px;
 }
 .choose-titter{
-    font-size: 1.5em
+    margin-top: 40px;
+    font-weight: bold;
+    color: red;
+    font-size: 1.5em;
+    padding: 10px 0px;
+    transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+}
+.choose-titter:hover{
+    margin-left: 20px;
+    color: indianred;
 }
 .choose-table >label{
     font-size: 1em;
     display: inline-block;
     padding: 10px 0px;
     padding-right: 10px;
+}
+.search{
+    padding: 5px 0px;
+}
+.search-boder{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1px 5px;
+}
+.search-boder:hover{
+    border: 1px solid red;
+}
+.search-boder:hover .search-button{
+    color: red;
+}
+.search-input, .search-button{
+    font-size: 1em;
+    outline: none;
+    border: none;
+    background: none;
+}
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    overflow: auto;
+    background: whitesmoke;
+}
+.footer >div{
+    box-sizing: border-box;
+    padding: 10px 5px;
+    float: left;
+}
+.footer-info{
+    font-size: 1em;
+    width: 50%;
+}
+.footer-address,.footer-fan{
+    width: 25%;
+}
+.footer-fan>a{
+    text-align: center;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 10px;
+    color: white;
+    background: black;
+    font-size: 2.5em;
+}
+.read-titter{
+    box-sizing: border-box;
+    width: 100%;
+    overflow: auto;
+    background: whitesmoke;
+    padding: 10px;
+}
+.read-titter>div{
+    float: left;
+    padding: 0px 10px ;
+    font-size: 1em;
+}
+.read-titter-content{
+    width: 70%;
+}
+.read-titter-info>p{
+    border-bottom: 1px dashed #DDD;
+}
+.read-info{
+    text-align: center;
+}
+.read-choose{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.read-choose >button{
+    width: 40px;
+}
+.choose-next{
+    font-weight: bold;
+    margin: 10px 0px;
+    text-align: center;
+    border-radius: 5px;
+    color: red;
+    background: white;
+    padding: 10px;
+    font-size: 1em;
+    transition: all 0.5s  ease-in;
+    -moz-transition: all 0.5s  ease-in;
+    -webkit-transition: all 0.5s  ease-in;
+}
+.choose-next:hover{
+    background: red;
+    color: white;
 }

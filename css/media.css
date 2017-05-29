@@ -1,23 +1,52 @@
-
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 1350px){
     .manga{
-        width: 25%;
+        width:  25%;
     }
 }
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 1111px){
+    .manga{
+        width:  33.333333333%;
+    }
+}
+
+@media only screen and (max-width: 880px){
     .manga{
         width: 50%;
     }
-    .titter{
-        float: none;
+    .search{
+        display: none;
+    }
+    .footer-info{
+        display: none;
+    }
+    .footer-address, .footer-fan{
+        width: 50%;
     }
 }
+@media only screen and (max-width: 650px){
+    .manga{
+        width: 50%;
+    }
+    .top{
+        margin-top: 100px;
+    }
+}
+
 @media only screen and (max-width: 480px){
     .manga{
         width: 100%;
     }
-    .link_sun{
+    .link_sun, .search{
         display: none;
+    }
+    .content{
+        margin-top: 70px;
+    }
+    .footer-info{
+        display: none;
+    }
+    .footer-address, .footer-fan{
+        width: 100%;
     }
 }
